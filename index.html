@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoE Inventory Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Path of Exile Inventory Manager</h1>
+        <button id="login-btn">Login with PoE</button>  <button id="logout-btn" style="display: none;">Logout</button>
+        <div id="user-info" style="display: none;">
+            Logged in as: <span id="user-name"></span>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div id="tabs-container">
+            </div>
+
+        <div id="inventory-container">
+            </div>
+
+        <div id="comparison-container">
+            <h2>Comparison</h2>
+            <div id="compare-slot-1" class="compare-slot">
+                <p>Select Item 1</p>
+                </div>
+            <div id="compare-slot-2" class="compare-slot">
+                <p>Select Item 2</p>
+                </div>
+            <div id="comparison-results">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
